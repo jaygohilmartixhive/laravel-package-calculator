@@ -32,7 +32,7 @@ And add manually by modifying `composer.json` file:
     },
 ```
 
-And run `composer install`
+And run `composer update`, `composer dump-autoload`
 
 Then add Service provider to `config/app.php`
 
