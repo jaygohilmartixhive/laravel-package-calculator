@@ -19,7 +19,7 @@ Or manually by modifying `composer.json` file:
 }
 ```
 
-And run `composer update`, `composer dump-autoload`
+And run `composer update && composer dump-autoload`
 
 Then add Service provider to `config/app.php`
 
