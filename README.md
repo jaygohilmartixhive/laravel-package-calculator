@@ -38,7 +38,15 @@ For the `GET` request methods shortcut methods are available. For example:
 Route::get('calculator', function(){
 	echo 'Hello from the calculator package!';
 });
+```
+
+For Adding two value 'a' and 'b' the `GET` request methods is called shown as below:
+```php
 Route::get('add/{a}/{b}', 'Devjay\Calculator\CalculatorController@add');
+```
+
+For Substracting two value 'a' and 'b' the `GET` request methods is called shown as below:
+```php
 Route::get('subtract/{a}/{b}', 'Devjay\Calculator\CalculatorController@subtract');
 
 ```
