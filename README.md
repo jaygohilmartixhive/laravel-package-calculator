@@ -26,6 +26,6 @@ Then add Service provider to `config/app.php`
 ``` php
     'providers' => [
         // ...
-        Devdojo\Calculator\CalculatorServiceProvider::class,
+        Devjay\Calculator\CalculatorServiceProvider::class,
     ]
 ```
