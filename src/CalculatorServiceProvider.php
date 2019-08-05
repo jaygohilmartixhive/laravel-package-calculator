@@ -1,6 +1,6 @@
 <?php
 
-namespace Devdojo\Calculator;
+namespace Devjay\Calculator;
 
 use Illuminate\Support\ServiceProvider;
 
