@@ -14,7 +14,7 @@ Or manually by modifying `composer.json` file:
 ``` json
 {
     "require": {
-        ...
+        // ...
         "devjay/calculator": "dev-master"
     }
 }
@@ -25,11 +25,11 @@ And add manually by modifying `composer.json` file:
 ``` json
     "autoload": {
         "psr-4": {
-            ...
+            // ...
             "Devjay\\Calculator\\": "packages/devdojo/calculator/src"
         },
         "classmap": [
-            ...
+            // ...
             "database"
         ]
     },
