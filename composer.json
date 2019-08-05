@@ -1,6 +1,6 @@
 {
     "name": "devjay/calculator",
-    "description": "This demo package will do some calculations",
+    "description": "This Laravel package will do some mathematic calculations",
     "authors": [
         {
             "name": "Jay Gohil",
