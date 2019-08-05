@@ -8,14 +8,5 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "App\\": "app/",
-            "Devdojo\\Calculator\\": "packages/devdojo/calculator/src"
-        },
-        "classmap": [
-            "database"
-        ]
-    }
+    "require": {}
 }
