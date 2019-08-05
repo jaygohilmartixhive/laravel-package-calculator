@@ -8,5 +8,12 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Devjay\\Calculator\\": "packages/devdojo/calculator/src"
+        }
+    }
 }
