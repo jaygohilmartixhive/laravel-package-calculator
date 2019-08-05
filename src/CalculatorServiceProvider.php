@@ -14,7 +14,7 @@ class CalculatorServiceProvider extends ServiceProvider
     public function register()
     {
         //Rgister Controller here
-        $this->app->make('Devdojo\Calculator\CalculatorController');
+        $this->app->make('Devjay\Calculator\CalculatorController');
         //Rgister View folder to acces blade file's here
         $this->loadViewsFrom(__DIR__.'/views', 'calculator');
 
