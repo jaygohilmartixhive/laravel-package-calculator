@@ -15,5 +15,15 @@
         "psr-4": {
             "Devjay\\Calculator\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Devjay\\Calculator\\CalculatorServiceProvider"
+            ],
+            "aliases": {
+                "Calculator": "Devjay\\Calculator\\Facade"
+            }
+        }
     }
 }
