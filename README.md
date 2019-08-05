@@ -30,7 +30,7 @@ Then add Service provider to `config/app.php`
     ]
 ```
 
-#### Shortcut methods for common request methods
+#### Shortcut methods for common request methods (It will provide you view in response)
 
 For the `GET` request methods shortcut methods are available. For example:
 
