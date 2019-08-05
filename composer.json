@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Devjay\\Calculator\\": "packages/devdojo/calculator/src"
+            "Devjay\\Calculator\\": "src/"
         }
     }
 }
