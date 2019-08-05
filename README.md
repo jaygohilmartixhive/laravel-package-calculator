@@ -19,19 +19,6 @@ Or manually by modifying `composer.json` file:
 }
 ```
 
-And add manually by modifying `composer.json` file:
-
-``` json
-    "autoload": {
-        "psr-4": {
-            "Devjay\\Calculator\\": "packages/devdojo/calculator/src"
-        },
-        "classmap": [
-            "database"
-        ]
-    },
-```
-
 And run `composer update`, `composer dump-autoload`
 
 Then add Service provider to `config/app.php`
